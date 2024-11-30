@@ -8,6 +8,6 @@ public class Hello
         List<String> names = new ArrayList<>();
         names.add("Sanjan"); names.add("Jaikar"); names.add("Harshini"); names.add("Bharathi");
 
-        names.stream().map(i -> i.equals("Bharathi") ? i + "Karra" : i + " Chikkala").forEach(System.out::println);
+        names.stream().map(i -> i.equals("Bharathi") ? i + " Karra" : i + " Chikkala").forEach(System.out::println);
     }
 }
